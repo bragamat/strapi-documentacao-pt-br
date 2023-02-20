@@ -50,7 +50,12 @@
   ],
   "license": "MIT",
   "engines": {
-    "node": "14.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=14.19.1 <=18",
+    "npm": ">=6.0.0",
+    "yarn": ">= 1.22"
+  },
+  "resolutions": {
+    "node-sass": "8",
+    "sass-loader": "10.4"
   }
 }

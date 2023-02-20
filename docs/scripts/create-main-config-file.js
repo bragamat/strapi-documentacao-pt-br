@@ -12,14 +12,23 @@ const createConfigFile = async () => {
   const developerSidebar = await fs.readFile(path.resolve(dest, 'sidebar-developer.js'));
   const userSidebar = await fs.readFile(path.resolve(dest, 'sidebar-user.js'));
 
+  const developerSidebarPtBR = await fs.readFile(path.resolve(dest, 'pt-BR', 'sidebar-developer.js'));
+  const userSidebarPtBR = await fs.readFile(path.resolve(dest, 'pt-BR', 'sidebar-user.js'));
+
   const content = `
 ${developerSidebar.toString()}
-
 ${userSidebar.toString()}
+
+${developerSidebarPtBR.toString()}
+${userSidebarPtBR.toString()}
 
 const sidebar = {
   developer,
   user,
+  'pt-BR': {
+    developer: developerPtBR,
+    user: userPtBR,
+  }
 };
 
 ${plugins.toString()}
@@ -37,6 +46,16 @@ module.exports = {
   themeConfig,
   markdown,
   plugins,
+  locales: {
+    // The key is the path for the locale to be nested under.
+    // As a special case, the default locale can use '/' as its path.
+    '/': { lang: 'en-US' },
+    '/pt-BR/': {
+      lang: 'pt-BR',
+      title: 'Strapi em pt-BR',
+      description: 'Documentacao do StrapiJS em Portugues!'
+    }
+  }
 };
   `;
 

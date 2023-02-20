@@ -6,7 +6,7 @@
     "dev": "yarn create:config-file && vuepress dev",
     "dev:dev": "yarn create:dev-config-file && vuepress dev",
     "dev:user": "yarn create:user-config-file && vuepress dev",
-    "build": "yarn create:config-file && vuepress build",
+    "build": "export NODE_OPTIONS=\"--openssl-legacy-provider --max-old-space-size=8192\"; yarn create:config-file && vuepress build",
     "check-links": "vuepress check-md",
     "create:config-file": "node ./scripts/create-main-config-file.js",
     "create:dev-config-file": "node ./scripts/create-developer-docs-config-file.js",

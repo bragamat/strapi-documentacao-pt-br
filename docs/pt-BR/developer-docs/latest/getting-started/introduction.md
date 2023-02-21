@@ -14,7 +14,7 @@ You can directly head to the [Quick Start](quick-start.md)! <br> If demos are mo
 
 The original purpose of the project was to help Boot**strap** your **API**: that's how Strapi was created. Now, Strapi is an open-source headless CMS that gives developers the freedom to choose their favorite tools and frameworks and allows editors to manage and distribute their content using their application's admin panel. Based on a plugin system, Strapi is a flexible CMS whose admin panel and API are extensible - and which every part is customizable to match any use case. Strapi also has a built-in user system to manage in detail what the administrators and end users have access to.
 
-## Open-source & Contribution
+## Contribuicoes e Open-source
 
 Strapi is an open-source project (see [LICENSE](https://github.com/strapi/strapi/blob/master/LICENSE) file for more information). The core project, as well as the documentation and any related tool can be found in the [Strapi](https://github.com/strapi) GitHub organization.
 

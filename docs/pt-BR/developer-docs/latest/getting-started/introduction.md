@@ -6,13 +6,13 @@ canonicalUrl: https://docs.strapi.io/developer-docs/latest/getting-started/intro
 
 # Bem vindos a documentacao de desenvolvedores do Strapi v4!
 
-This documentation contains all technical documentation related to the setup, deployment, update and customization of your Strapi application.
+Esta documentação contém toda a documentação técnica relacionada à configuração, implantação, atualização e personalização de sua aplicação Strapi.
 
-::: strapi Can't wait to start using Strapi?
-You can directly head to the [Quick Start](quick-start.md)! <br> If demos are more your thing, we have a [video demo](https://youtu.be/h9vETeRiulY), or you can request a [live demo](https://strapi.io/demo)!
+::: strapi Mal pode esperar para começar a usar o Strapi?
+Você pode ir direto para o [Quick Start](quick-start.md)! <br> Se voce prefere videos, nos temos esse [video](https://youtu.be/h9vETeRiulY), ou você pode solicitar uma [demo ao vivo](https://strapi.io/demo)!
 :::
 
-The original purpose of the project was to help Boot**strap** your **API**: that's how Strapi was created. Now, Strapi is an open-source headless CMS that gives developers the freedom to choose their favorite tools and frameworks and allows editors to manage and distribute their content using their application's admin panel. Based on a plugin system, Strapi is a flexible CMS whose admin panel and API are extensible - and which every part is customizable to match any use case. Strapi also has a built-in user system to manage in detail what the administrators and end users have access to.
+O objetivo original do projeto era ajudar a inicializar (* Boot**strap** *) sua API: foi assim que o Strapi foi criado. Agora, o Strapi é um CMS headless de código aberto que dá aos desenvolvedores a liberdade de escolher suas ferramentas e estruturas favoritas e permite aos editores gerenciar e distribuir seu conteúdo usando o painel de administração de sua aplicação. Baseado em um sistema de plug-ins, o Strapi é um CMS flexível cujo painel de administração e API são extensíveis - e cada parte pode ser personalizada para corresponder a qualquer caso de uso. O Strapi também possui um sistema de usuários integrado para gerenciar em detalhes o que os administradores e usuários finais têm acesso.
 
 ## Open-source & Contribution
 

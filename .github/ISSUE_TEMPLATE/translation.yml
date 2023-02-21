@@ -1,0 +1,11 @@
+name: Translation
+description: Create an Issue to help identify what we need to translate in your docs
+title: "[translation]: "
+labels: "type: translation"
+body:
+  - type: textarea
+    attributes:
+      label: Describe the topic you want to translate
+      placeholder: "Topic: Open-source & Contribution in dev-docs/getting-started/introduction.md"
+    validations:
+      required: true

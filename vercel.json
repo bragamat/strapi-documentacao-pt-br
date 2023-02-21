@@ -1,3 +1,9 @@
 {
-  "public": true
+  "public": true,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "destination": "/pt-BR/:path*"
+    }
+  ],
 }

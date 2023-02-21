@@ -12,7 +12,7 @@ Esta documentação contém toda a documentação técnica relacionada à config
 Você pode ir direto para o [Quick Start](quick-start.md)! <br> Se voce prefere videos, nos temos esse [video](https://youtu.be/h9vETeRiulY), ou você pode solicitar uma [demo ao vivo](https://strapi.io/demo)!
 :::
 
-O objetivo original do projeto era ajudar a inicializar (* Boot**strap** *) sua API: foi assim que o Strapi foi criado. Agora, o Strapi é um CMS headless de código aberto que dá aos desenvolvedores a liberdade de escolher suas ferramentas e estruturas favoritas e permite aos editores gerenciar e distribuir seu conteúdo usando o painel de administração de sua aplicação. Baseado em um sistema de plug-ins, o Strapi é um CMS flexível cujo painel de administração e API são extensíveis - e cada parte pode ser personalizada para corresponder a qualquer caso de uso. O Strapi também possui um sistema de usuários integrado para gerenciar em detalhes o que os administradores e usuários finais têm acesso.
+O objetivo original do projeto era ajudar a inicializar (*strapi* tem origem da palavra *Bootstrap*) sua API: foi assim que o Strapi foi criado. Agora, o Strapi é um CMS headless de código aberto que dá aos desenvolvedores a liberdade de escolher suas ferramentas e estruturas favoritas e permite aos editores gerenciar e distribuir seu conteúdo usando o painel de administração de sua aplicação. Baseado em um sistema de plug-ins, o Strapi é um CMS flexível cujo painel de administração e API são extensíveis - e cada parte pode ser personalizada para corresponder a qualquer caso de uso. O Strapi também possui um sistema de usuários integrado para gerenciar em detalhes o que os administradores e usuários finais têm acesso.
 
 ## Open-source & Contribution
 

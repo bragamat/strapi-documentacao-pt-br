@@ -5,5 +5,5 @@
       "source": "/:path*",
       "destination": "/pt-BR/:path*"
     }
-  ],
+  ]
 }

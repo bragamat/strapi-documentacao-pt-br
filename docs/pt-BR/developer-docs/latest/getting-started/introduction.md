@@ -4,7 +4,7 @@ description: This documentation contains all technical documentation related to 
 canonicalUrl: https://docs.strapi.io/developer-docs/latest/getting-started/introduction.html
 ---
 
-# Bem vindos a documentacao de desenvolvedores do Strapi v4!
+# Boas vindas a documentacao de desenvolvedores do Strapi v4!
 
 Esta documentação contém toda a documentação técnica relacionada à configuração, implantação, atualização e personalização de sua aplicação Strapi.
 

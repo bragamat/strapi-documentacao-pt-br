@@ -2,8 +2,9 @@
   "public": true,
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "/pt-BR/:path*"
+      "source": "/:path(.*)",
+      "destination": "/pt-BR/:path(.*)",
+      "permanent": true
     }
   ]
 }

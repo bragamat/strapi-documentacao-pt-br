@@ -3,26 +3,26 @@ sidebar_label: 'Guia Rápido'
 displayed_sidebar: devDocsSidebar
 sidebar_position: 2
 title: Guia Rápido - Documentação de Desenvolvimento do Strapi
-description: Get ready to get Strapi, your favorite open-source headless cms up and running in less than 3 minutes.
+description: Se prapare para fazer o Strapi, seu CMS headless open source favorito pronto para rodar em menos de 3 minutos
 # next: ./troubleshooting
 
 ---
 
-import InstallPrerequisites from '/docs/snippets/installation-prerequisites.md'
+import InstallPrerequisites from '../snippets/installation-prerequisites.md'
 
 # Guia Rápido
 
-Strapi offers a lot of flexibility. Whether you want to go fast and quickly see the final result, or would rather dive deeper into the product, we got you covered. For this tutorial, we'll go for the DIY approach and build a project and data structure from scratch.
+O Strapi oferece muita flexibilidade. Se você deseja ir rápido e ver rapidamente o resultado final, ou prefere se aprofundar mais no produto, temos tudo coberto. Para este tutorial, optaremos pela abordagem DIY (_Do it yourself_ - faça você mesmo) e construiremos um projeto e uma estrutura de dados do zero.
 
 :::prerequisites
 <InstallPrerequisites components={props.components} />
 :::
 
-## 🚀 Part A: Create a new project with Strapi
+## 🚀 Parte A: Crie um novo projeto com Strapi
 
-### Step 1: Run the installation script
+### Passo 1: Execute o _script_ de instalação
 
-Run the following command in a terminal:
+Execute o seguinte comando em um terminal:
 
 <Tabs groupId="yarn-npm">
 
@@ -45,40 +45,41 @@ npx create-strapi-app@latest my-project --quickstart
 </Tabs>
 
 :::info
-The `quick start` installation sets up Strapi with a SQLite database. Other databases and installation options are available (see [CLI installation guide](/dev-docs/installation/cli)).
+A `instalação rápida` configura o Strapi com um banco de dados _SQLite_. Outros bancos de dados e opções de instalação estão disponíveis. (ver [guia de Instalação da CLI](/dev-docs/installation/cli)).
 :::
 
-### Step 2: Register the first administrator user
+### Passo 2: Cadastre o primeiro usuario administrador
 
-Once the installation is complete, your browser automatically opens a new tab.
+Assim que a instalação estiver concluída, seu navegador abrirá automaticamente uma nova guia.
 
-By completing the form, you create your own account. Once done, you become the first administrator user of this Strapi application. Welcome aboard, commander!
+Ao preencher o formulário, você criará sua própria conta. Depois de concluído, você se tornará o primeiro usuário administrador desta aplicação Strapi. Boas vindas a bordo, comandante!
 
-You now have access to the [admin panel](http://localhost:1337/admin):
+Agora você tem acesso ao [painel administrativo](http://localhost:1337/admin):
 
 ![Admin panel screenshot: dashboard](/img/assets/quick-start-guide/qsg-handson-part1-01-admin_panel_2.png)
 
-:::callout 🥳 CONGRATULATIONS!
-You have just created a new Strapi project! You can start playing with Strapi and discover the product by yourself using our [User Guide](/user-docs/intro), or proceed to part B below.
+:::callout 🥳 PARABÉNS!
+Você acaba de criar um novo projeto Strapi! Você pode começar a mexer com Strapi e descobrir o produto por você usando nosso [Guia de Usuário](/user-docs/intro), ou vá para a parte B abaixo.
 :::
 
-## 🛠 Part B: Build your content
+## 🛠  Parte B: Construa seu conteúdo!
 
-The installation script has just created an empty project. We will now guide you through creating a restaurants directory, inspired by our [FoodAdvisor](https://github.com/strapi/foodadvisor) example application.
+O _script_ de instalação acabou de criar um projeto vazio. Nós iremos agora guiar voce para criar o diretório _restaurants_, inpirado na nossa aplicação de exemplo: [_FoodAdvisor_](https://github.com/strapi/foodadvisor).
 
-In short, we will create a data structure for your content, then add some entries and publish them, so that the API for your content can be consumed.
+Em resumo, nós iremos criar uma estrutura de dados para o seu conteúdo, adicionaremos alguns dados e então iremos publicá-los, para que assim a _API_ para o seu conteúdo possa ser utilizada.
 
-The admin panel of Strapi runs at [http://localhost:1337/admin](http://localhost:1337/admin). This is where you will spend most of your time creating and updating content.
+O painel administrativo do Strapi roda em: [http://localhost:1337/admin](http://localhost:1337/admin). É aqui que você irá passar a maior parte do seu tempo criando e atualizando conteúdo.
 
 :::tip TIP
-If the server is not already running, in your terminal, `cd` into the `my-project` folder and run `npm run develop` (or `yarn develop`) to launch it.
+Se o servidor não está rodando ainda, no seu terminal, `cd` na pasta `my-project` e execute `npm run develop` (ou `yarn develop`) para iniciá-lo.
 :::
 
-### Step 1: Create collection types with the Content-type Builder
+### Passo 1: Crie tipos de coleções com o construtor de Tipos de Conteúdo - Content-type Builder
 
 The Content-type Builder plugin helps you create your data structure. When creating an empty project with Strapi, this is where to get the party started!
+O plugin _Content-type Builder_ ajuda você a criar sua estrutura de dados. É aqui que podemos iniciar a fest quando iniciamos um projeto Strapi do zero!
 
-#### Create a "Restaurant" collection type
+#### Crie uma _collection type_ "Restaurant"
 
 Your restaurants directory will eventually include many restaurants, so we need to create a "Restaurant" collection type. Then we can describe the fields to display when adding a new restaurant entry:
 
@@ -183,16 +184,16 @@ Finally, to publish your favorite restaurant, go to ![Content Manager icon](/img
 
 ![GIF: Publish content](/img/assets/quick-start-guide/qsg-handson-publish.gif)
 
-### Step 5: Use the API
+### Passo 5: Use a _API_
 
 OK dear gourmet, we have just finished creating our content and making it accessible through the API. You can give yourself a pat on the back — but you have yet to see the final result of your hard work.
 
 There you are: the list of restaurants is accessible at [http://localhost:1337/api/restaurants](http://localhost:1337/api/restaurants).
 
-Try it now! The result should be similar to the example response below 👇.
+Testar agora! O resultado deve ser similar ao do exemplo de resposta abaixo 👇.
 
 <details>
-<summary>Click me to view an example of API response</summary>
+<summary>Clica aqui para ver um exemplo de resposta de API</summary>
 
 ```json
 {
@@ -222,17 +223,17 @@ Try it now! The result should be similar to the example response below 👇.
 </details>
 
 :::callout 🥳 CONGRATULATIONS!  
-Now your content is created, published, and you have permissions to request it through the API.
-Keep on creating amazing content!
+Agora seu conteúdo está criado, publicado, e você tem permissões para os consultar através da API.
+Manda ver na criação na criaçãp de conteúdo!
 :::
 
-## ⏩ What to do next?
+## ⏩ O que fazer a partir daqui?
 
-Now that you know the basics of creating and publishing content with Strapi, we encourage you to explore and dig deeper into some Strapi features:
+Agora que você sabe o básico de criar e publicar conteúdo com Strapi, nós te encorajamos a explorar e entender a fundo alguns recursos do Strapi:
 
 <!-- TODO: uncomment this one when API token page is ready -->
 <!-- - 👉 [create an API token](/user-docs/settings/managing-global-settings#managing-api-tokens) to restrict access to your API, -->
 <!-- TODO: uncomment this one and make it replace the duplicate line without GraphQL -->
 <!-- - 👉 learn how to use Strapi's [REST](/dev-docs/api/rest) and [GraphQL](/dev-docs/api/graphql) APIs to query the content, -->
-- 👉 learn how to use Strapi's [REST](/dev-docs/api/rest) API to query the content,
-- 👉 and [customize your Strapi back end](/dev-docs/backend-customization) and [admin panel](/dev-docs/admin-panel-customization).
+- 👉 Aprenda como usar a API [REST](/dev-docs/api/rest) do Strapi para consultar ou pesquisar conteúdo,
+- 👉 E [customizar seu _backend_ Strapi](/dev-docs/backend-customization) e [painel administrativo](/dev-docs/admin-panel-customization).
